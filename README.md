@@ -18,14 +18,14 @@ To use RBMs, you will need to have the following dependencies installed:
 
 You can install these dependencies using the following command in Python:
 
-pip install numpy scipy matplotlib
+**pip install numpy scipy matplotlib
 
 Usage
 
 To use RBMs, you can follow these steps:
 
-    Prepare your data: RBMs can be used with various types of data, such as binary data, continuous data, or discrete data. You need to preprocess your data and convert it into the appropriate format for RBMs.
-    Initialize RBM: Create an RBM object with the desired number of visible and hidden units. You can specify other parameters, such as the learning rate, number of iterations, and batch size.
-    Train RBM: Use your data to train the RBM. During training, RBMs adjust their weights to minimize the energy function of the system. You can use various techniques, such as contrastive divergence or persistent contrastive divergence, to train RBMs efficiently.
-    Evaluate RBM: After training, you can evaluate the performance of RBM by measuring its reconstruction error or using it for tasks such as data generation or feature extraction.
-    Fine-tune RBM: You can further fine-tune RBMs by adjusting their parameters, such as learning rate or regularization strength, to optimize their performance on specific tasks.
+    1-Prepare your data: RBMs can be used with various types of data, such as binary data, continuous data, or discrete data. You need to preprocess your data and convert it into the appropriate format for RBMs.
+    2-Initialize RBM: Create an RBM object with the desired number of visible and hidden units. You can specify other parameters, such as the learning rate, number of iterations, and batch size.
+    3-Train RBM: Use your data to train the RBM. During training, RBMs adjust their weights to minimize the energy function of the system. You can use various techniques, such as contrastive divergence or persistent contrastive divergence, to train RBMs efficiently.
+    4-Evaluate RBM: After training, you can evaluate the performance of RBM by measuring its reconstruction error or using it for tasks such as data generation or feature extraction.
+    5-Fine-tune RBM: You can further fine-tune RBMs by adjusting their parameters, such as learning rate or regularization strength, to optimize their performance on specific tasks.
