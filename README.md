@@ -18,7 +18,7 @@ To use RBMs, you will need to have the following dependencies installed:
 
 You can install these dependencies using the following command in Python:
 
-pip install numpy scipy matplotlib
+*pip install numpy scipy matplotlib
 
 Usage
 
